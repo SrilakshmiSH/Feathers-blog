@@ -9,7 +9,8 @@ client.configure(feathers.authentication());
 const loginHTML = `<main class="login container">
   <div class="row">
     <div class="col-12 col-6-tablet push-3-tablet text-center heading">
-      <h1 class="font-100">Healable - Login or signup</h1>
+      <h1 class="font-100">Healable blogs</h1>
+      <h2>Login or signup</h2>
     </div>
   </div>
   <div class="row">
@@ -38,7 +39,8 @@ const loginHTML = `<main class="login container">
 const chatHTML = `<main class="flex flex-column">
 <header class="title-bar flex flex-row flex-center">
   <div class="title-wrapper block center-element">
-    <h1 class="font-80">Healable Blogs Section</h1>
+    <h1 class="font-80">Healable</h1>
+    <h2>All blogs</h2>
   </div>
 </header>
 
@@ -65,7 +67,8 @@ const chatHTML = `<main class="flex flex-column">
 const createblogHTML = `<main class="login container">
 <div class="row">
   <div class="col-12 col-6-tablet push-3-tablet text-center heading">
-    <h1 class="font-100">Healable - Create a new blog post</h1>
+    <h1 class="font-100">Healable</h1>
+    <h2>Create a new blog post</h2>
   </div>
 </div>
 
