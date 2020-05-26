@@ -13,6 +13,7 @@ var blogid = idx != -1 ? url.substring(idx+5) : "";
 // display the earlier comments for that blog
 const addComments = c => {
   
+  //fetch the current user logged in
     const { user = {} } = c;
    
     const chat1 = document.querySelector('.comms-list');
@@ -44,7 +45,6 @@ const showBlogs = async () => {
 
      // add the comments to display  
     comms.data.forEach(addComments);
-
 };
 
 //login to the blog
