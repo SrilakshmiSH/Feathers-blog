@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app" class="flex flex-column"></div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.js"></script>
+  <script src="//unpkg.com/@feathersjs/client@^4.3.0/dist/feathers.js"></script> 
+  <script src="/socket.io/socket.io.js"></script> 
+  <script src="viewblog.js"></script> 
+
+  <h1>View all blogs </h1>   
+  <br><br>
+  Blog title: <label id="mytext2"></label>
+  <br><br>
+  Blog description: <label id="mytext3"></label>
+  <br><br>
+
+  <input type="text" id="comment-text" placeholder="Add comments" style="height:50px; width:300px"/>&nbsp;
+
+  <button type="button" id="addcomment" style="font-weight:bold; height:50px">Add Comment </button>
+
+  <br><br>
+  <div class="blcomments">
+    <br>
+    View comments :
+    <ul class="text-center comms-list"></ul>
+  </div> 
+
+</div>
+</body>
+</html>
+
